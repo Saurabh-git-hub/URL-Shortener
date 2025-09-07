@@ -13,5 +13,7 @@ export default defineConfig({
   },
   rules: {
     "react/prop-types": 0,
+    chunkSizeWarningLimit: 1000, // or higher
   },
 });
+
